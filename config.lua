@@ -143,6 +143,94 @@ Config.Shops = {
             },
         }
     }, -- Add your next table under this comma
+    ['lsbdlrs'] = {
+        ['Type'] = 'managed', -- meaning a real player has to sell the car
+        ['Zone'] = {
+            ['Shape'] = {
+                vector2(916.69012451172, -2099.1823730469),
+                vector2(913.85528564453, -2134.3442382812),
+                vector2(870.08349609375, -2130.4985351562),
+                vector2(871.0439453125, -2115.18359375),
+                vector2(881.26092529297, -2116.1596679688),
+                vector2(883.38293457031, -2096.5078125)
+            },
+            ['minZ'] = 30.459423065186,
+            ['maxZ'] = 30.459461212158,
+            ['size'] = 3.75 -- size of the vehicles zones
+        },
+        ['Job'] = 'losbandoleros', -- Name of job or none
+        ['ShopLabel'] = 'Los-Bandoleros-Dealerchip',
+        ['showBlip'] = true, -- true or false
+        ['blipSprite'] = 326, -- Blip sprite
+        ['blipColor'] = 3, -- Blip color
+        ['TestDriveTimeLimit'] = 0.5,
+        ['Location'] = vector3(891.65, -2114.28, 30.03),
+        ['ReturnLocation'] = vector3(862.91, -2140.15, 30.07),
+        ['VehicleSpawn'] = vector4(912.72, -2107.65, 30.03, 354.35),
+        ['TestDriveSpawn'] = vector4(912.72, -2107.65, 30.03, 354.35), -- Spawn location for test drive
+        ['ShowroomVehicles'] = {
+            [1] = {
+                coords = vector4(897.71, -2102.7, 29.58, 158.26),
+                defaultVehicle = 'shelby6x6cullinan',
+                chosenVehicle = 'shelby6x6cullinan'
+            },
+            [2] = {
+                coords = vector4(891.91, -2101.84, 29.58, 158.17),
+                defaultVehicle = 'GODzGLADIATOR6x6',
+                chosenVehicle = 'GODzGLADIATOR6x6'
+            },
+            [3] = {
+                coords = vector4(885.82, -2102.7, 29.58, 159.62),
+                defaultVehicle = 'sema10X10',
+                chosenVehicle = 'sema10X10'
+            },
+            [4] = {
+                coords = vector4(873.37, -2125.51, 29.58, 343.72),
+                defaultVehicle = 'ikx3bgt3',
+                chosenVehicle = 'ikx3bgt3'
+            },
+            [5] = {
+                coords = vector4(878.96, -2126.12, 29.58, 342.72),
+                defaultVehicle = 's63coupe',
+                chosenVehicle = 's63coupe'
+            },
+            [6] = {
+                coords = vector4(884.19, -2126.45, 29.58, 342.72),
+                defaultVehicle = 'minirocketman',
+                chosenVehicle = 'minirocketman'
+            },
+            [7] = {
+                coords = vector4(889.75, -2127.12, 29.58, 345.19),
+                defaultVehicle = 'golf8beast',
+                chosenVehicle = 'golf8beast'
+            },
+            [8] = {
+                coords = vector4(895.33, -2127.71, 29.58, 342.77),
+                defaultVehicle = 'slamrolly',
+                chosenVehicle = 'slamrolly'
+            },
+            [9] = {
+                coords = vector4(900.56, -2127.86, 29.58, 344.1),
+                defaultVehicle = 'cullpickwz',
+                chosenVehicle = 'cullpickwz'
+            },
+            [10] = {
+                coords = vector4(905.76, -2128.31, 29.58, 342.56),
+                defaultVehicle = '4x4x7',
+                chosenVehicle = '4x4x7'
+            },
+            [11] = {
+                coords = vector4(910.96, -2129.16, 29.58, 345.41),
+                defaultVehicle = 'camochevelle',
+                chosenVehicle = 'camochevelle'
+            },
+            [12] = {
+                coords = vector4(903.04, -2102.68, 30.42, 159.73),
+                defaultVehicle = 'hummerh3limo',
+                chosenVehicle = 'hummerh3limo'
+            },
+        }
+    },
     ['boats'] = {
         ['Type'] = 'free-use', -- no player interaction is required to purchase a vehicle
         ['Zone'] = {
